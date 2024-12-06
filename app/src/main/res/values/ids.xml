@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tvGPSLocation" type="id" />
+    <item name="tvWeather" type="id" />
+    <item name="tvWindSpeed" type="id" />
+    <item name="tvUVIndex" type="id" />
+    <item name="tvRain" type="id" />
+    <item name="btnGetRecommendations" type="id" />
+    <item name="cardLocation" type="id" />
+    <item name="cardTemperature" type="id" />
+    <item name="cardWindSpeed" type="id" />
+    <item name="cardUVIndex" type="id" />
+    <item name="cardRain" type="id" />
+    <item name="tvCityWeather" type="id" />
+    <item name="btnFetchWeather" type="id" />
+    <item name="etCityName" type="id" />
+</resources>

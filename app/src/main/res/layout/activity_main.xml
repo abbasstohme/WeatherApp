@@ -1,0 +1,84 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Main content -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvGPSLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location: --"
+            android:textSize="18sp"
+            android:padding="8dp" />
+
+        <ImageView
+            android:id="@+id/weatherIcon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/sunny"
+            android:contentDescription="Weather Icon" />
+
+
+
+        <TextView
+            android:id="@+id/tvWeather"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weather: --"
+            android:textSize="18sp"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/tvWindSpeed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wind Speed: --"
+            android:textSize="18sp"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/tvUVIndex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UV Index: --"
+            android:textSize="18sp"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/tvRain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rain: --"
+            android:textSize="18sp"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/btnGetRecommendations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get Recommendations" />
+
+        <TextView
+            android:id="@+id/tvRecommendations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recommendations will appear here."
+            android:textSize="18sp"
+            android:padding="8dp" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnCityWeather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Weather by City"
+        android:layout_gravity="bottom"
+        android:padding="16dp" />
+</FrameLayout>
